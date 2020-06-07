@@ -44,7 +44,6 @@ control "AWS Security Group" do
   describe aws_security_group(group_name: 'tc_kubeadm_sg') do
     it { should exist }
   end
-  
 end
 
 control "SSH Access" do
