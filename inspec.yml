@@ -15,5 +15,5 @@ attributes:
 - name: bucketname
   description: "S3 bucket name"
   required: true
-  value: $DEV_BUCKET
+  value: ""
   type: string
