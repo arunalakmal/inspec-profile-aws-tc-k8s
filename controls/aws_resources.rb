@@ -46,3 +46,12 @@ control "AWS Security Group" do
   end
   
 end
+
+control "SSH Access" do
+  impact 0.8
+  title "Check Security Group Access for SSH"
+
+  describe aws_security_group(group_name: 'tc_kubeadm_sg') do
+    it { should allow_in(port: 22, ipv4_range: '0.0.0.0/0') }
+  end  
+end
