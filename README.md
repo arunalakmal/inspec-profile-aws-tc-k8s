@@ -16,3 +16,5 @@ I have added a test to check the availability of the bucket and the public acces
 I used this as the integration tests of my K8s custom environment and, GitLab pipline automatically triggers these tests after setting up the environment. <br/>
 
 One important thing is "Accepting the licences", I have added the `CHEF_LICENSE=accept-no-persist` environment variable to automatically perform the licence acceptance when pipeline triggering the tests. 
+
+![alt text](https://drive.google.com/file/d/1DRdrVV2TAWVS0scH644d2hqdr3AZdtDA/view?usp=sharing "Inspec output")
