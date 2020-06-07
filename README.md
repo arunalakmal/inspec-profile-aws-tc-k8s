@@ -17,5 +17,4 @@ I used this as the integration tests of my K8s custom environment and, GitLab pi
 
 One important thing is "Accepting the licences", I have added the `CHEF_LICENSE=accept-no-persist` environment variable to automatically perform the licence acceptance when pipeline triggering the tests. 
 
-![alt text][inspecoutput]
-[inspecoutput]: https://drive.google.com/uc?export=view&id=1DRdrVV2TAWVS0scH644d2hqdr3AZdtDA "Inspec output"
+![alt text](https://drive.google.com/uc?export=view&id=1DRdrVV2TAWVS0scH644d2hqdr3AZdtDA "inspec output")
