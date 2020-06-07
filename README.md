@@ -19,4 +19,4 @@ One important thing is "Accepting the licences", I have added the `CHEF_LICENSE=
 
 Here is the output of the above test:
 
-![alt text](https://drive.google.com/uc?export=view&id=1DRdrVV2TAWVS0scH644d2hqdr3AZdtDA "inspec output")
+![alt text](https://github.com/ArunaLakmal/inspec-profile-aws-tc-k8s/blob/master/images/Screen%20Shot%202020-06-07%20at%207.07.04%20PM.png "inspec output")
