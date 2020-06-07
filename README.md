@@ -12,5 +12,7 @@ I have added a test to check the availability of the bucket and the public acces
 <br/>
 `inspec exec inspec-profile-aws-tc-k8s -t aws:// --input bucketname="${DEV_BUCKET}"`
 <br/>
+
 I used this as the integration tests of my K8s custom environment and, GitLab pipline automatically triggers these tests after setting up the environment. <br/>
+
 One important thing is "Accepting the licences", I have added the `CHEF_LICENSE=accept-no-persist` environment variable to automatically perform the licence acceptance when pipeline triggering the tests. 
