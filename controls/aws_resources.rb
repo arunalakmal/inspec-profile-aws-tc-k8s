@@ -28,6 +28,7 @@ end
 control "AWS EC2 AMI" do
   impact 0.9
   title "Check AWS EC2 Instance AMI"
+  
   aws_ec2_instances.instance_ids.each do |instance_id|
     describe aws_ec2_instance(instance_id) do
       it              { should_not have_roles }
