@@ -33,7 +33,7 @@ control "AWS EC2 AMI" do
     describe aws_ec2_instance(instance_id) do
       it              { should_not have_roles }
       its('key_name') { should cmp 'ironman' }
-      its('image_id') { should eq 'ami-0a887e401f7654935' }
+      its('image_id') { should eq 'ami-00dc79254d0461090' }
     end 
   end
 end
