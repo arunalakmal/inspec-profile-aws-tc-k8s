@@ -31,7 +31,7 @@ control "AWS EC2 AMI" do
   
   aws_ec2_instances.instance_ids.each do |instance_id|
     describe aws_ec2_instance(instance_id) do
-      it              { should_not have_roles }
+      it              { should have_roles }
       its('key_name') { should cmp 'ironman' }
       its('image_id') { should eq 'ami-0a887e401f7654935' }
     end 
